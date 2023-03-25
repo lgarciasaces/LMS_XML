@@ -1,4 +1,4 @@
-# Ejemplo: Catálogo de libros
+# Ejemplo: Catálogo de libros <a name="inicio"></a>
 
 **Índice**
 - [XML del catálogo de libros](#xml)
@@ -94,6 +94,8 @@
   </libro>
 </catalogo>
 ```
+
+[arriba 🔝](#inicio)
 ***
 
 ## Comentarios en DTD, XML Schema y RELAX NG <a name="comentarios"></a>
@@ -115,6 +117,8 @@ En **RELAX NG**, los comentarios se escriben entre `##` y `##`. Por ejemplo:
 
 ```
 
+
+[arriba 🔝](#inicio)
 *** 
 
 ## Código DTD <a name="dtd"></a>
@@ -145,6 +149,8 @@ También establece las reglas de estructura para cada elemento, como qué elemen
 Por ejemplo, el elemento `catalogo` debe contener uno o más elementos `libro`, mientras que el elemento `libro` debe contener exactamente un elemento `titulo`, un elemento `autor`, un elemento `editorial`, un elemento `precio`, un elemento `codigo_ejemplo`, y un elemento `url`. Además, el atributo `id` es requerido y el atributo `lenguaje` es requerido para el elemento `libro`, mientras que el atributo `moneda` es requerido para el elemento `precio`.
 
 
+
+[arriba 🔝](#inicio)
 ***
 
 ## Código XML Schema <a name="xsd"></a>
@@ -202,6 +208,8 @@ Cada elemento `libro` tiene un atributo `id` y `lenguaje`, y contiene elementos 
 La estructura y tipos de datos de cada elemento y atributo están definidos en el código XML Schema.
 
 
+
+[arriba 🔝](#inicio)
 ***
 
 ## Código RELAX NG <a name="rng"></a>
