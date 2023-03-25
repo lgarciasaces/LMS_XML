@@ -1,6 +1,13 @@
 # Ejemplo: Catálogo de libros
 
-## XML del catálogo de libros
+**Índice**
+- [XML del catálogo de libros](#xml)
+- [Comentarios en DTD, XML Schema y RELAX NG](#comentarios)
+- [Código DTD](#dtd)
+- [Código XML Schema](#xsd)
+- [Código RELAX NG](#rng)
+
+## XML del catálogo de libros <a name="xml"></a>
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -89,7 +96,7 @@
 ```
 ***
 
-## Comentarios en DTD, XML Schema y RELAX NG
+## Comentarios en DTD, XML Schema y RELAX NG <a name="comentarios"></a>
 
 Los comentarios en **DTD** se escriben entre `<!--` y `-->`.
 ```
@@ -110,7 +117,7 @@ En **RELAX NG**, los comentarios se escriben entre `##` y `##`. Por ejemplo:
 
 *** 
 
-## DTD
+## Código DTD <a name="dtd"></a>
 
 ```
 <!ELEMENT catalogo (libro+)>
@@ -140,7 +147,7 @@ Por ejemplo, el elemento `catalogo` debe contener uno o más elementos `libro`, 
 
 ***
 
-## Código XML Schema para el código anterior:
+## Código XML Schema <a name="xsd"></a>
 
 ```
 <?xml version="1.0"?>
@@ -196,7 +203,8 @@ La estructura y tipos de datos de cada elemento y atributo están definidos en e
 
 
 ***
-## Código RELAX NG
+
+## Código RELAX NG <a name="rng"></a>
 
 
 ```
