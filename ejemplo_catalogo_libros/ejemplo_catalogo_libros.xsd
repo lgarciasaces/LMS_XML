@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="catalogo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="libro" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo" type="xs:string"/>
+              <xs:element name="autor" type="xs:string"/>
+              <xs:element name="editorial">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="año" type="xs:gYear"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="precio">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:decimal">
+                      <xs:attribute name="moneda" type="xs:string" use="required"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="codigo_ejemplo" type="xs:string"/>
+              <xs:element name="url" type="xs:anyURI"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attribute name="lenguaje" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
+
+##
+Este código especifica que el elemento raíz es 'catalogo' y que debe contener 
+uno o más elementos 'libro'. Cada 'libro' debe tener los atributos 'id' y 'lenguaje', 
+y los elementos 'titulo', 'autor', 'editorial', 'precio', 'codigo_ejemplo' y 'url'. 
+'editorial' debe contener los elementos 'nombre' y 'año'. 
+'precio' debe tener el atributo 'moneda' y un valor numérico decimal. 
+'codigo_ejemplo' debe contener cualquier cadena de texto. 
+'url' debe contener una URI.
+##

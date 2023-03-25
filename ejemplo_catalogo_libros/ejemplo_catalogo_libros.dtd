@@ -1,0 +1,15 @@
+<!ELEMENT catalogo (libro+)>
+<!ELEMENT libro (titulo, autor, editorial, precio, codigo_ejemplo, url)>
+<!ATTLIST libro
+          id CDATA #REQUIRED
+          lenguaje CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial (nombre, año)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio
+          moneda CDATA #REQUIRED>
+<!ELEMENT codigo_ejemplo (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
