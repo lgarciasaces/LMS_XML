@@ -1,0 +1,6 @@
+<!ELEMENT marcadores (pagina+)>
+<!ELEMENT pagina (nombre, descripcion, url)>
+<!ATTLIST pagina fecha CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT url (#PCDATA)>

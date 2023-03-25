@@ -1,0 +1,16 @@
+<element name="marcadores" xmlns="http://relaxng.org/ns/structure/1.0">
+  <oneOrMore>
+    <element name="pagina">
+      <attribute name="fecha"/>
+      <element name="nombre">
+        <text/>
+      </element>
+      <element name="descripcion">
+        <text/>
+      </element>
+      <element name="url">
+        <text/>
+      </element>
+    </element>
+  </oneOrMore>
+</element>

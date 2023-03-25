@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<marcadores>
+  <pagina fecha="16/2/2023">
+    <nombre>GitHub</nombre>
+    <descripcion>GitHub: Let's build from here</descripcion>
+    <url>https://github.com/</url>
+  </pagina>
+  <pagina fecha="21/3/2023">
+    <nombre>Wikipedia</nombre>
+    <descripcion>La enciclopedia libre.</descripcion>
+    <url>http://www.wikipedia.org/</url>
+  </pagina>
+  <pagina fecha="25/3/2023">
+    <nombre>W3C</nombre>
+    <descripcion>World Wide Web Consortium.</descripcion>
+    <url>http://www.w3.org/</url>
+  </pagina>
+</marcadores>
+
+
+
+
