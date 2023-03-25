@@ -244,3 +244,4 @@ Este código especifica que el elemento raíz es `catalogo` y que debe contener 
 
 Cada `libro` debe tener los atributos `id` y `lenguaje`, y los elementos `titulo`, `autor`, `editorial`, `precio`, `codigo_ejemplo` y `url`. `editorial` debe contener los elementos `nombre` y `año`. `precio` debe tener el atributo `moneda` y un valor numérico decimal. `codigo_ejemplo` debe contener cualquier cadena de texto. `url` debe contener una URI.
 
+[arriba 🔝](#inicio)
